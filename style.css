@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner1{
+    background: url(img/conteiner1bmw.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1.3px solid white;
+    width: 87%;
+    margin: auto;
+    padding: .7rem;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
+    transition: .3s ease-in-out;
+}
+
+
+
+.menu-nav a:hover{
+    transform: scale(110%);
+}
+
+.menu-nav img{
+    width:2.6rem;
+}
+
+
+
+
+
+
+.text1{
+    color: white;
+    margin-left: 4rem;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+.text1 p:first-of-type{
+    font-size: .7em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.text1 :nth-child(2){
+    font-size: 6.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btns{
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.btns :first-of-type{
+    background-color:rgb(72, 72, 255);
+    color: white;
+    font-size: .8rem;
+    padding: .7rem;
+    text-decoration: none;
+
+    margin-right: .8rem;
+}
+
+
+.btns :nth-child(2){
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    font-size: .8rem;
+    padding: .7rem 2rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.conteiner2{
+    height: 64vh;
+    width: 70%;
+    margin: auto;
+}
+.text2{
+    text-align: center;
+}
+.text2 h2{
+    font-size: 2.9em;
+    font-weight: 100;
+}
+.card{
+    display: flex;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 0;
+}
+.cardfi{
+    text-align: center;
+    height: 20vh;
+}
+.cardfi p{
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+.cardfi a{
+    font-size: .9em;
+    text-decoration: none;
+    color: black ;
+    padding: .7rem 1rem;
+    border-radius: .1rem;
+    border: 1px solid;
+}
+.cardfi a:hover{
+    background-color: black;
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+.conteiner3{
+    background: url(img/conteiner3.bmw.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    margin-bottom: 30px;
+}
+.text3{
+    width: 34%;
+    color: white;
+    margin-left: 5rem;
+    position: relative;
+    top: 5rem;
+}
+.text3 h2{
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 0;
+}
+.text3 a{
+    text-decoration: none;
+    color: white;
+    border: 1.4px solid ;
+    border-radius: .3rem;
+    padding: .6rem 5rem;
+}
+.text3 a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: .4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+.conteiner4{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.conteiner4 img{
+    opacity: .8;
+}
+.conteiner4 img:hover{
+     opacity: 1;
+     transition: .3s ease-in-out;
+}
+.text4{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.text4 p{
+    font-size: .9em;
+    line-height: 1.3rem;
+    color: rgb(56, 56, 56);
+    margin-bottom: 3rem;
+}
+.text4 h2{
+    font-weight: 100;
+    margin: 0;
+    font-size: 2.4em;
+}
+.text4 a{
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: 600;
+    border-radius: .4rem;
+    color: black;
+    border: 1.5px solid black;
+    padding: .6rem 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 93%;
+    margin: auto;
+   
+}
+.nav-footer{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 3rem;
+}
+.fo p{
+    /* text-align: center; */
+    color: rgb(73, 73, 73);
+    font-size: .7em;
+}
+.fo ul{
+    list-style: none;
+    
+}
+.fo li{
+    margin-bottom: .7rem;
+}
+.fo a{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-size: .8em;
+    font-weight: 700;
+}
+.fo{
+    box-sizing: border-box;
+}
+ 
+
+
+.rede{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.rede img{
+    width: 2%;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.copy p{
+    font-weight: 100;
+    color: rgb(61, 61, 61);
+}
+.copy a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-size: .7em;
+    font-weight: 600;
+    margin-left : 2.2rem;
+}
