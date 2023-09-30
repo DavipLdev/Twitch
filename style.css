@@ -5,7 +5,8 @@ body{
 }
 .conteiner1{
     background: url(img/conteiner1bmw.png);
-    background-attachment: fixed;
+    max-width: 100%;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
@@ -285,4 +286,17 @@ footer{
     font-size: .7em;
     font-weight: 600;
     margin-left : 2.2rem;
+}
+
+
+
+
+@media (max-width:964px) {
+    .conteiner1{
+        width: 100%;
+        height: 60vh;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
 }
