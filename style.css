@@ -46,6 +46,17 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 .text1{
     color: white;
     margin-left: 4rem;
@@ -85,6 +96,11 @@ body{
     padding: .7rem 2rem;
     text-decoration: none;
 }
+
+
+
+
+
 
 
 
@@ -143,6 +159,16 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
 .conteiner3{
     background: url(img/conteiner3.bmw.jpg);
     background-attachment: fixed;
@@ -177,6 +203,19 @@ body{
     border: 1px solid black;
     transition: .4s ease-in-out;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -222,6 +261,16 @@ body{
     border: 1.5px solid black;
     padding: .6rem 1.4rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
